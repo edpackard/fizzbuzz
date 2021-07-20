@@ -41,3 +41,15 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(30)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'no error if passed a boolean' do
+    expect(fizzbuzz(true)).to eq nil
+  end
+end
+
+describe 'fizzbuzz' do
+  it 'no error if passed a string' do
+    expect(fizzbuzz("3")).to eq nil
+  end
+end
