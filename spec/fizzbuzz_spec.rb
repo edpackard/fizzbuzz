@@ -35,3 +35,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(10)).to eq 'buzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "fizzbuzz" when passed 30' do
+    expect(fizzbuzz(30)).to eq 'fizzbuzz'
+  end
+end
