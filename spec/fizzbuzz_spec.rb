@@ -18,3 +18,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(15)).to eq 'fizzbuzz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns argument number when passed 1' do
+    expect(fizzbuzz(1)).to eq 1
+  end
+end
